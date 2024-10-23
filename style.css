@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #f2e5bf;
+  min-height: 100vh;
+  border: 13px, solid, #257180;
+}
+.content {
+  max-width: 70%;
+  margin: 0px auto;
+}
+.top_section {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.img_container {
+  border-radius: 50%;
+}
+.img_container,
+img {
+  width: 250px;
+  height: 280px;
+  border-radius: 25%;
+}
+.top_section h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #257180;
+}
+.top_section h4 {
+  color: #257180;
+  font-size: 24px;
+  text-align: end;
+}
+.about_section {
+  margin-top: 100px;
+}
+.about_section h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.about_section p {
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.6px;
+  text-align: justify;
+}
+.bio_section {
+  margin-top: 40px;
+}
+.bio_section h3 {
+  font-weight: 550;
+  letter-spacing: 1.8px;
+  font-size: 25px;
+}
+.bio_section ul {
+  list-style-type: square;
+  margin: 40px auto;
+  margin-left: 65px;
+}
+.bio_section li {
+  margin: 15px 0;
+  font-size: 17.5px;
+  text-align: justify;
+}
+footer {
+  text-align: end;
+  margin: 15px 0;
+}
